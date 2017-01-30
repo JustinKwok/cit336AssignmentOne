@@ -1,0 +1,161 @@
+/*Trying out @font-face to use a custom font. Not 100% sure it will work, sans-serif is used as a backup*/
+
+@font-face { 
+	font-family: CaviarDreams; src: url('CaviarDreams.tff'); 
+} 
+@font-face { 
+	font-family: CaviarDreams_Bold; font-weight: bold; src: url('CaviarDreams_Bold.tff');
+}
+
+body {
+	font-family: Comfortaa, CaviarDreams, sans-serif;
+}
+
+h1 {
+	font-family: Comfortaa, CaviarDreams, sans-serif;
+}
+
+header {
+	background-color: #2a2d2b;
+	padding: 20px;
+}
+
+.favoriteColor {
+	color:#51ffab;
+}
+
+.backgroundTextBlock {
+	background-color: #fffbbc;
+	padding-bottom: 60px;
+}
+
+.backgroundPhotoAndTextFacts {
+	background-color: #fffbbc;
+	padding-bottom: 10px;
+}
+
+.button1 {
+	background-color: #87ff95;
+	padding: 8px 26px;
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	margin-left: 0px;
+}
+
+.button1:hover {
+	background-color: white;
+	color: #87ff95;
+}
+
+.button2 {
+	background-color: #87ddff;
+	padding: 8px 26px;
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	margin-left: 0px;
+}
+
+.button2:hover {
+	background-color: white;
+	color: #87ddff;
+}
+
+.facebookButton {
+	background-color: #ff7580;
+	padding: 8px 26px;
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	margin-left: 0px;
+}
+
+.facebookButton:hover {
+	background-color: white;
+	color: #ff7580;
+}
+
+.githubButton {
+	background-color: #ff66b2;
+	padding: 8px 26px;
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	margin-left: 0px;
+}
+
+.githubButton:hover {
+	background-color: white;
+	color: #ff66b2;
+}
+
+.linkedinButton {
+	background-color: #b187ff;
+	padding: 8px 26px;
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	margin-left: 0px;
+}
+
+.linkedinButton:hover {
+	background-color: white;
+	color: #b187ff;
+}
+
+.spotifyButton {
+	background-color: #f7874f;
+	padding: 8px 26px;
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	margin-left: 0px;
+}
+
+.spotifyButton:hover {
+	background-color: white;
+	color: #f7874f;
+}
+
+.paceButton {
+	background-color: #fce54e;
+	padding: 8px 26px;
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	margin-left: 0px;
+}
+
+.paceButton:hover {
+	background-color: white;
+	color: #fce54e;
+}
+
+#footer {
+	position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:100px;
+}
+
+#mainPhotoFacts {
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding: 70px;
+}
+
+
+#mainPhoto {
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding: 25px;
+}
+
+.imgCircle {
+	border-radius: 50%;
+}
