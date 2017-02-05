@@ -1,42 +1,78 @@
-<html>
+<!DOCTYPE html>
 	<head>
+	<meta charset="utf-8">
 	<title>Justin Kwok | Homepage</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
 <!--fonts.google.com-->
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 	</head>
 	<body>
 <!--Nav bar + social media-->
 	<header>
-		<center>
-		<a class = button1 class = button1:hover href="facts.html">Facts</a>
-		<a class = button2 class = button2:hover href="favorites.html">Favorites</a>
-		<a class = linkedinButton class = linkedinButton:hover href="https://www.linkedin.com/in/justinkwoknyc" target ="_blank">LinkedIn</a>
-		<a class = githubButton class = githubButton:hover href="https://github.com/JustinKwok/" target ="_blank">Github</a>
-		<a class = facebookButton class = facebookButton:hover href="https://www.facebook.com/justin.kwok.94" target ="_blank">Facebook</a>
-		<a class = spotifyButton class = spotifyButton:hover href="https://open.spotify.com/user/1217987677" target ="_blank">Spotify</a>
-		<a class = paceButton class = paceButton:hover href="http://webpage.pace.edu/jk74020n/" target ="_blank">Pace University</a>
-		</center>
+		<div class=buttons>
+			<a class = connectWithMe href="https://www.youtube.com/watch?v=bTEm0q-VMmg" target ="_blank">Let's build cool stuff:</a>
+			<a class = linkedinButton class = linkedinButton:hover href="https://www.linkedin.com/in/justinkwoknyc" target ="_blank">LinkedIn</a>
+			<a class = githubButton class = githubButton:hover href="https://github.com/JustinKwok/" target ="_blank">Github</a>
+			<a class = facebookButton class = facebookButton:hover href="https://www.facebook.com/justin.kwok.94" target ="_blank">Facebook</a>
+			<a class = spotifyButton class = spotifyButton:hover href="https://open.spotify.com/user/1217987677" target ="_blank">Spotify</a>
+			<a class = paceButton class = paceButton:hover href="http://webpage.pace.edu/jk74020n/" target ="_blank">Pace University</a>
+		<div>
 	</header>
+
 <!--Quote of the day-->
 	<center>
 		<p>"You miss 100% of the shots you don't take - Wayne Gretsky" - Michael Scott</p>
 	</center>
-	<br>
-<!--Middle of page containing picture of me and small blurb.-->
-	<div class = backgroundTextBlock>
-		<img class = imgCircle id = mainPhoto src="http://tinyurl.com/gpcrh7f">
-		<br>
-		<h1><b>Hello, World!</b></h1>
-		<p>Justin Kwok is currently a junior at Pace University pursuing a Bachelor of Science degree in Information Technology. He has decided to pursue his passion for all things technology after working in real estate for over 9 years.</p>
-		<h3><b>Connect with me, let's make cool stuff together!</b></h3>
+<!--<img class = imgCircle id = mainPhoto src="http://tinyurl.com/gpcrh7f">-->
+
+<!--Accordion-->
+	<div class="accordion">
+		<h3 class="accordionHeader1">Hello, World!</h3>
+		<div>
+			<p class = aboutMe> Justin Kwok is currently a junior at Pace University pursuing a Bachelor of Science degree in Information Technology. He has decided to pursue his passion for all things technology after working in real estate for over 9 years.</p>
+		</div>
+		<h3 class="accordionHeader2">Fun Facts</h3>
+		<div>
+			<p>The following are fun facts about me:</p>
+			<ul>
+				<li>I've met <a href ="http://tinyurl.com/zs2hocz" target="_blank">Guy Fieri</a>.</li>
+				<li>I have a dog named <a href="https://www.instagram.com/p/BHuSdQBjvV8/?taken-by=justinkmkwok&hl=en" target="_blank">Gus</a>, he was a rescue from <a href="http://www.alrcares.com/happytails/" target="_blank">Animal Lighthouse Rescue</a>.</li>
+				<li>I love going to concerts.</li>
+				<li>I'm obsessed with music. I've made a playlist for every month since 2014. You can follow me by clicking on the Spotify link above!</li>
+				<li>I just finished reading the whole Harry Potter series for the first time, heart eyes.</li>
+				<li>I dressed up as a wizard for Halloween 2016, it was <a href="http://tinyurl.com/zyf6dnb" target="_blank">epic</a>.</li>
+				<li>I met my <a href="https://www.instagram.com/p/BBNhD5WuOaF/?taken-by=justinkmkwok&hl=en" target="_blank">girlfriend</a>  from OkCupid, she's pretty rad. (Bonus fun fact: She was the other wizard in the epic wizard photo.)</li>
+				<li>I like to do arts and crafts.</li>
+			</ul>
+		</div>
+		<h3 class="accordionHeader3">Favorite Things</h3>
+		<div>
+			<p>"Hey Justin, what's your favorite _______?"</p>
+			<ul>
+				<li><b>Movie</b>: Ferris Bueller's Day Off</li>
+				<li><b>TV Show</b>: The Office</li>
+				<li><b>Color</b>: <span class = favoriteColor>#51ffab</span></li>
+				<li><b>Number</b>: 2</li>
+				<li><b>Book</b>: Harry Potter, all of them.</li>
+				<li><b>Game</b>: Super Mario RPG
+				<li><b>Place to get nachos</b>: Cowgirl Sea Horse, out. of. this. <a href="http://cowgirlseahorse.com/" target ="_blank">WORLD</a>.</li>
+				<li><b>Song</b>: This <a href="https://www.youtube.com/watch?v=bkBPcmuS3yw" target ="_blank">cover</a>.</li>
+			</ul>
+			</div>
 	</div>
-<!--Spotify player-->
-	<br>
-	<br>
-	<center><iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3A1217987677%3Aplaylist%3A42nHpmQVxXv6Hf3DVhCi2g" width="400" height="250" frameborder="0" allowtransparency="true"></iframe>
-	</center>
+
+	<center><button class="musicButton">Listen to music!</button></center>
+
+<!--Dialog box-->
+	<div class="welcome" title="Enjoy my Spotify playlist! ">
+  		<center><p><iframe src="https://embed.spotify.com/?uri=spotify:user:1217987677:playlist:42nHpmQVxXv6Hf3DVhCi2g" width="300" height="80" frameborder="0" allowtransparency="true"></iframe></p></center>
+	</div>
+
 <!--Footer image-->
 	<img id = footer src="https://www.yellowcabnyctaxi.com/wp-content/themes/yellowcabnyc/images/footer_skyline.png">
 	</body>
+	<!--Script-->
+	<script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" type="text/javascript"></script>
+  	<script src="scripts/script.js" type="text/javascript"></script>
 </html>
